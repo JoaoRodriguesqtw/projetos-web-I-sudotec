@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/reservas.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <title>Delivery kiki's coffe</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Noto+Serif+TC:wght@200..900&family=Slackside+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <section class="nome">
+        <h1>delivery kiki's coffe</h1>
+        <h3>Um café temático do Studio Ghibli</h3>
+        <section class="nuvem">
+          <img
+            src="https://i.pinimg.com/originals/e3/9d/e9/e39de96ddbf852ed53a4e9a993550641.gif"
+          />
+        </section>
+      </section>
+
+      <section class="links">
+        <nav>
+          <a href="cardapio.html"><button>cardápio</button></a>
+          <a href="sobre.html"><button>sobre</button></a>
+          <a href="#"><button id="button_reserva">reservas</button></a>
+        </nav>
+      </section>
+    </header>
+    <main>
+      <section class="reservas">
+        <section class="kiki">
+          <img
+            src="https://i.pinimg.com/originals/c9/7b/14/c97b1454c6229d84ae23871dc2b402eb.gif"
+          />
+        </section>
+        <div class="painel">
+          <section class="centralizador">
+            <form id="formulario">
+              <label for="titulo">Seu nome</label>
+              <input type="text" id="titulo" placeholder="Ex: Ana souza" />
+
+              <label for="descricao">Quantas pessoas e quando</label>
+              <input
+                type="text"
+                id="descricao"
+                placeholder="Ex: 4 pessoas, sábado as 20h"
+              />
+
+              <section id="btns">
+                <button>Adicionar</button>
+                <button id="limpar">Limpar</button>
+              </section>
+
+              <h5 id="aviso"></h5>
+            </form>
+          </section>
+
+          <ul id="lista" class="lista"></ul>
+        </div>
+
+        <script src="../javascript/reservas.js"></script>
+      </section>
+    </main>
+    <footer>
+      <h4>©copyright by Kiki's Delivery Coffe</h4>
+    </footer>
+  </body>
+</html>

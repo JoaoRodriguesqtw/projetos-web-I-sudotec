@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overscroll-behavior: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: rgb(150, 150, 255);
+  color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.links {
+  background-color: rgb(56, 37, 125);
+  box-shadow:
+    0 8px 16px 0 rgba(0, 0, 0, 0.4),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+  margin-bottom: 20px;
+  color: bisque;
+
+  border-color: bisque;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.botoes-nav {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(56, 37, 125);
+  border-color: bisque;
+  color: bisque;
+}
+
+main {
+  background: linear-gradient(to right, #1c076f, #0a0023);
+  padding-bottom: 20px;
+}
+
+.geral {
+  padding: 0px 180px 20px 180px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+
+  gap: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+#entradas,
+#pratos,
+#sobremesas {
+  border: solid;
+  border-color: black;
+  padding: 0px 60px 20px 60px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background-color: rgb(56, 37, 125);
+  color: bisque;
+  border-color: bisque;
+}
+
+footer {
+  padding: 100px 20px;
+  font-family: Noto serif TC;
+  background-color: rgb(150, 150, 255);
+  color: bisque;
+}
+
+#btnCardapio {
+  background-color: burlywood;
+  color: rgb(56, 37, 125);
+  border-color: bisque;
+}
+
+.nome {
+  padding: 20px;
+}
+
+.nuvem {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  margin-left: 800px;
+  align-items: center;
+  /* overflow: hidden; */
+}
+
+#indicador {
+  color: bisque;
+}
+
+.kiki {
+  display: flex;
+  justify-content: end;
+  height: 120px;
+  margin-left: 600px;
+}

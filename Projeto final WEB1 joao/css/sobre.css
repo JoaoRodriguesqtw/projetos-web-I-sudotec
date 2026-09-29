@@ -1,0 +1,104 @@
+.noto-serif-tc {
+  font-family: "Noto Serif TC", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overscroll-behavior: none;
+}
+
+header {
+  background-color: rgb(150, 150, 255);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Noto serif TC;
+  color: bisque;
+}
+
+.nome {
+  padding: 20px;
+}
+
+.nuvem {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  margin-left: 800px;
+  align-items: center;
+}
+
+.links {
+  text-align: center;
+  background-color: rgb(56, 37, 125);
+  box-shadow:
+    0 8px 16px 0 rgba(0, 0, 0, 0.4),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  padding: 20px;
+}
+
+button {
+  border-color: bisque;
+  background-color: rgb(56, 37, 125);
+  font-family: Noto Serif TC;
+  color: bisque;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+#btnSobre {
+  background-color: burlywood;
+  color: rgb(56, 37, 125);
+  border-color: bisque;
+}
+
+main {
+  background: linear-gradient(to right, #1c076f, #0a0023);
+  font-family: Noto Serif TC;
+  padding-bottom: 80px;
+}
+
+.sobre {
+  padding: 10px 200px 100px 200px;
+  color: bisque;
+  font-family: Noto serif TC;
+  background: linear-gradient(to right, #1c076f, #0a0023);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+footer {
+  padding: 80px 20px;
+  font-family: Noto serif TC;
+  background-color: rgb(150, 150, 255);
+  color: bisque;
+}
+
+.kiki {
+  display: flex;
+  justify-content: end;
+  height: 120px;
+  margin-left: 600px;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
